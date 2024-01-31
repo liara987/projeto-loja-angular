@@ -1,0 +1,41 @@
+.app-search-bar {
+  display: flex;
+}
+
+input {
+  all: unset;
+  background-color: #f3f5f6;
+  width: 22rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+
+  &::placeholder {
+    font-size: 0.9rem;
+    color: #737380;    
+  }
+}
+
+button,
+input[type="submit"] {
+  border-radius: 0.5rem;
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  position: relative;
+
+  &:hover {
+    background-color: pink;
+  }
+
+  img {
+    top: 0.5rem;
+    left: 0.5rem;
+    position: absolute;
+  }
+}
